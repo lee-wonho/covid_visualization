@@ -1,0 +1,12 @@
+김형동님
+  - 데이터 결측치 처리(+)
+    - 데이터간 상관관계에 대한 이해(+)
+    
+  - 직관적인 변수명(+)
+    ex) df_refine(뭘로 정제했는지로 변수명을 정했으면 더 좋았을 것), df_raw, df_80s
+
+  - 데이터프레임에 대한 이해 부족(-)
+    - infected_by 와 infected_by_int를 구분지을 필요 x
+      -> infected_by를 다시 str형식으로 쓸 필요 없음
+    - count_0 ~ count_100
+    - for if elif else 문을 통한 카운트 -> df.merge 와 Serise.value_counts()를 이용할 것
